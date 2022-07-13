@@ -1,14 +1,14 @@
-# Next.js + Tailwind CSS + Ionic Framework + Capacitor Mobile Starter
+# [T3](https://create.t3.gg/) + Ionic Framework + Capacitor Mobile Starter
 
-![Screenshot](./screenshot.png)
+![Simulator Screen Recording - iPhone 12 mini - 2022-07-13 at 12 26 41](https://user-images.githubusercontent.com/467258/178773122-c9144e3a-03fc-40db-b74f-e0307d4f1808.gif)
 
-This repo is a conceptual starting point for building an iOS, Android, and Progressive Web App with Next.js, Tailwind CSS, [Ionic Framework](https://ionicframework.com/), and [Capacitor](https://capacitorjs.com/).
+This repo is a conceptual starting point for building an iOS, Android, and Progressive Web App with Next.js, Tailwind CSS, TypeScript, [trpc](https://trpc.io), [Prisma](https://www.prisma.io/), [Ionic Framework](https://ionicframework.com/), and [Capacitor](https://capacitorjs.com/).
 
-Next.js handles the production React app experience, Tailwind can be used to style each page of your app, Ionic Framework provides the cross-platform system controls (navigation/transitions/tabs/etc.), and then Capacitor bundles all of it up and runs it on iOS, Android, and Web with full native access.
+Next.js handles the production React app experience, Tailwind can be used to style each page of your app, TypeScript for a type-safe environment, trpc for end-to-end typesafe APIs, Prisma for an ORM with full type safety and painless migrations, Ionic Framework provides the cross-platform system controls (navigation/transitions/tabs/etc.), and then Capacitor bundles all of it up and runs it on iOS, Android, and Web with full native access.
 
-See this blog post for an overview of the stack and how it all works: https://dev.to/ionic/build-mobile-apps-with-tailwind-css-next-js-ionic-framework-and-capacitor-3kij
+See this blog post for an overview of the base stack and how it all works: https://dev.to/ionic/build-mobile-apps-with-tailwind-css-next-js-ionic-framework-and-capacitor-3kij.
 
-Please note: this repo isn't quite production ready as-is. Users will want to configure tailwind purging as a first step, and note SSR is currently disabled for the Next.js app as the app will be fully client-side rendered for iOS and Android. This is a limitation we are working to address in a future update.
+Please note: SSR is currently disabled for the Next.js app as the app will be fully client-side rendered for iOS and Android. This is a limitation we are working to address in a future update.
 
 ## Usage
 
